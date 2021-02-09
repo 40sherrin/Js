@@ -1,6 +1,7 @@
-let count = 2;
-
-while(count < 200){
-  document.write(count + "<br>");
-  count++;
+function createMulitpler(x){
+  return function(y){
+    return y * x;
+  }
 }
+
+let doubleX = createMulitpler(3)
