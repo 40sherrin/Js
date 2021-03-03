@@ -5,4 +5,3 @@ function createMulitpler(x){
 }
 
 let doubleX = createMulitpler(3);
-document.write(doubleX(4));
