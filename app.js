@@ -1,8 +1,8 @@
-const http = reuqire('http');
+const http = require('http');
 
 const server = http.createServer((req, res) => {
   if(req.url === '/'){
-    res.send('Welcome to home')
+    res.end('Welcome to home')
   }
 })
 
